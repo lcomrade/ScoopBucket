@@ -1,0 +1,27 @@
+{
+  "version": "0.8",
+  "license": "GPLv3+",
+  "description": "Minimalist WEB-server for data transfer via HTTP",
+  "homepage": "https://github.com/lcomrade/horizon/",
+  "architecture": {
+	  "64bit": {
+		  "url": "https://github.com/lcomrade/horizon/releases/download/v0.8/horizon.windows.amd64.zip",
+		  "hash": ""
+     },
+     "32bit": {
+		  "url": "https://github.com/lcomrade/horizon/releases/download/v0.8/horizon.windows.386.zip",
+		  "hash": ""
+     }
+  },
+  "bin": "horizon.exe",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/lcomrade/horizon/releases/download/v$version/horizon.windows.amd64.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/lcomrade/horizon/releases/download/v$version/horizon.windows.386.zip"
+      }
+    }
+  }
+}
