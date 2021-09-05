@@ -7,3 +7,4 @@ This is the bucket for the custom Windows package manager - [scoop](https://gith
 
 ## Available software
 - [horizon](https://github.com/lcomrade/horizon)
+- [rs-status](https://github.com/lcomrade/rs-status)

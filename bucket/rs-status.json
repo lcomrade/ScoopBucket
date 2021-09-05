@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "license": "GPLv3+",
+  "description": "Utility that display the status of Internet resources",
+  "homepage": "https://github.com/lcomrade/rs-status/",
+  "architecture": {
+	  "64bit": {
+		  "url": "https://github.com/lcomrade/rs-status/releases/download/v0.1/rs-status.windows.amd64.zip",
+		  "hash": "943E1CF2D621E4E590EF4DA5C240CFE4DB6BDE19861F3CBAF6090D61DB4D5808"
+     },
+     "32bit": {
+		  "url": "https://github.com/lcomrade/rs-status/releases/download/v0.1/rs-status.windows.386.zip",
+		  "hash": "ECB7DF72778BDD1201E6EE64BD3F2C26539EB33F3B735F5EBF6ACEF50F9319AC"
+     }
+  },
+  "bin": "rs-status.exe",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/lcomrade/rs-status/releases/download/v$version/rs-status.windows.amd64.zip"
+      },
+      "32bit": {
+        "url": "https://github.com/lcomrade/rs-status/releases/download/v$version/rs-status.windows.386.zip"
+      }
+    }
+  }
+}
