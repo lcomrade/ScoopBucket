@@ -1,3 +1,9 @@
+# Closing
+This repository has been moved to the archive. The reason for closing it is to stop building the software I develop for Windows.
+
+Versions of the software here will no longer be updated. Builds for Linux, *BSD and other UNIX-like systems are still being built.
+
+# About
 This is the bucket for the custom Windows package manager - [scoop](https://github.com/lukesampson/scoop).
 
 ## Usage
